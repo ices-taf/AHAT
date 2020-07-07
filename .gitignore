@@ -1,0 +1,7 @@
+.Rproj.user
+.Rhistory
+.Ruserdata
+*.Rproj
+
+2020/log/
+2020/html/
