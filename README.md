@@ -5,7 +5,7 @@ As an example this markdown document has been produced using the code in
 the 2020 folder. In practice, an HTML document will be produced, and
 will be available via the link below:
 
-<https://ocean.ices.dk/AHAT/Home/GettrResult?seriesID=Denmark%20ARH170165%20CD%20Mytilus%20edulis%20SB&matrix=Biota&year=2020>
+<https://ocean.ices.dk/AHAT/Home/GettrResult?seriesID=Canada%20Amituk%20Lake%20HG%20Salvelinus%20alpinus%20MU&matrix=Biota&year=2020>
 
 The graphical map interface to all assessments will be found here:
 <https://ocean.ices.dk/ahat/>
