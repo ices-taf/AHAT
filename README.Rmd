@@ -1,0 +1,39 @@
+---
+title: AMAP Hazardous substances Assessment Tool
+output:
+  github_document:
+    html_preview: false
+params:
+  compartment: "biota"
+  series: "Canada Amituk Lake HG Salvelinus alpinus MU"
+---
+
+```{r setup, echo=FALSE}
+# rownames(biota.web$assessment$timeSeries)
+year <- 2020
+# stops jittering from looking like a new plot
+set.seed(20342309)
+# load 2020 data
+load("2020/assessment_platform.RData")
+```
+
+As an example this markdown document has been produced using the
+code in the 2020 folder. In practice, an HTML document will be produced,
+and will be available via the link below:
+
+https://ocean.ices.dk/AHAT/Home/GettrResult?seriesID=Denmark%20ARH170165%20CD%20Mytilus%20edulis%20SB&matrix=Biota&year=2020
+
+The graphical map interface to all assessments will be found here:
+https://ocean.ices.dk/ahat/
+
+
+```{r child = "2020/assessment_platform.Rmd"}
+```
+
+### how to build this file
+
+this file was created using (requires access to `assessment_platform.RData`)
+
+```{r eval = FALSE}
+rmarkdown::render("README.Rmd")
+```
